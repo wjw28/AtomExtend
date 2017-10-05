@@ -1,0 +1,23 @@
+{
+  "name": "simplified-chinese-menu",
+  "main": "./lib/main",
+  "version": "5.3.4",
+  "description": "Atom 的简体中文语言包，完整汉化，兼容所有已发布版本 Atom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinakids/atom-simplified-chinese-menu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "language",
+    "chinesee",
+    "simplified",
+    "简体中文",
+    "汉化",
+    "chinakids"
+  ],
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "open-in-browsers",
+  "main": "./lib/open-in-browsers",
+  "version": "0.0.30",
+  "description": "Open in IE/Chrome/Firefox/Opera",
+  "keywords": [
+    "open in browser",
+    "IE",
+    "Firefox",
+    "chrome",
+    "Opera"
+  ],
+  "repository": "https://github.com/skandasoft/open-in-browsers",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "pp": {
+      "versions": {
+        ">=0.0.0": "consumeAddPreview"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "lodash": "^3.10.1",
+    "load-json-file": "^2.0.0"
+  }
+}

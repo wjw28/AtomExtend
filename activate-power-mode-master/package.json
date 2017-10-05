@@ -1,0 +1,28 @@
+{
+  "name": "activate-power-mode",
+  "main": "./lib/activate-power-mode",
+  "version": "2.5.0",
+  "description": "Activate POWER MODE to write your code in style.",
+  "keywords": [],
+  "repository": "https://github.com/JoelBesada/activate-power-mode",
+  "author": "Joel Besada <joel@joelb.me> (http://joelb.me)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.2.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.random": "^3.1.5",
+    "lodash.sample": "^4.2.1",
+    "lodash.throttle": "^4.0.1"
+  },
+  "providedServices": {
+    "activate-power-mode": {
+      "description": "Provide an API to add plugins, effects and flows.",
+      "versions": {
+        "1.0.0": "provideServiceV1"
+      }
+    }
+  }
+}
